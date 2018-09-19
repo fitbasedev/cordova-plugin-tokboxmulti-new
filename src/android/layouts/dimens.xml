@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="publisher_height">120dp</dimen>
+    <dimen name="publisher_width">120dp</dimen>
+    <dimen name="publisher_end_margin">10dp</dimen>
+    <dimen name="publisher_right_margin">16dp</dimen>
+    <dimen name="publisher_bottom_margin">16dp</dimen>
+    <dimen name="publisher_padding">2dp</dimen>
+    <dimen name="icon_width">52dp</dimen>
+    <dimen name="icon_height">52dp</dimen>
+    <dimen name="alert_bar_height">30dp</dimen>
+    <dimen name="alert_text">14sp</dimen>
+    <dimen name="action_bar_height">71dp</dimen>
+    <dimen name="action_bar_width">71dp</dimen>
+    <dimen name="_3sdp">10.80dp</dimen>
+    <dimen name="_6sdp">21.60dp</dimen>
+    <dimen name="_10sdp">36.00dp</dimen>
+    <dimen name="_2sdp">7.20dp</dimen>
+    <dimen name="_8sdp">28.80dp</dimen>
+    <dimen name="_7sdp">25.20dp</dimen>
+    <dimen name="txt_size15">15sp</dimen>
+</resources>
