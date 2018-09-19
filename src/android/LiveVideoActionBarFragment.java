@@ -13,17 +13,16 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 
-import com.ionicframework.trainermobile381261.R;
-
+import com.fitbasetrainer.R;
 /**
  * Created by Priya on 9/10/2018.
  */
 
 public class LiveVideoActionBarFragment extends Fragment {
 
-  private static final String LOGTAG = LiveVideoActivity.class.getName();
+  private static final String LOGTAG = com.fitbase.TokBox.LiveVideoActivity.class.getName();
 
-  private LiveVideoActivity mActivity;
+  private com.fitbase.TokBox.LiveVideoActivity mActivity;
   private View rootView;
 
   private ImageButton mAudioBtn;
@@ -98,7 +97,7 @@ public class LiveVideoActionBarFragment extends Fragment {
 
     super.onAttach(context);
 
-    this.mActivity = (LiveVideoActivity) context;
+    this.mActivity = (com.fitbase.TokBox.LiveVideoActivity) context;
     this.mControlCallbacks = (PreviewControlCallbacks) context;
   }
 
@@ -109,7 +108,7 @@ public class LiveVideoActionBarFragment extends Fragment {
 
     if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {
 
-      this.mActivity = (LiveVideoActivity) activity;
+      this.mActivity = (com.fitbase.TokBox.LiveVideoActivity) activity;
       this.mControlCallbacks = (PreviewControlCallbacks) activity;
     }
   }

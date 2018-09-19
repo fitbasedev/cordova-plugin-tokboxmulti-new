@@ -14,8 +14,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.ionicframework.trainermobile381261.R;
-
+import com.fitbasetrainer.R;
 import java.util.ArrayList;
 import java.util.List;
 

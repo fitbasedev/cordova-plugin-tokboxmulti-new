@@ -2,8 +2,7 @@ package com.fitbase.TokBox;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import com.ionicframework.trainermobile381261.R;
-
+import com.fitbasetrainer.R;
 /**
  * Created by Priya on 9/11/2018.
  */

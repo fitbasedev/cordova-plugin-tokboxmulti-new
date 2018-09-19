@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.ionicframework.trainermobile381261.R;
+import com.fitbasetrainer.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,7 +20,7 @@ import java.util.List;
 
 public class ParticipantsListAdapter extends RecyclerView.Adapter<ParticipantsListAdapter.ParticipantViewHolder> {
 
-  private List<Participant> mParticipantsList = new ArrayList<Participant>();
+  private List<com.fitbase.TokBox.Participant> mParticipantsList = new ArrayList<com.fitbase.TokBox.Participant>();
   private ParticipantListAdapterListener mListener;
   private Context context;
 
@@ -28,7 +28,7 @@ public class ParticipantsListAdapter extends RecyclerView.Adapter<ParticipantsLi
     void muteFromListOfParticipants(View view);
   }
 
-  public ParticipantsListAdapter(Context context, List<Participant> participantsList, ParticipantListAdapterListener listener) throws Exception {
+  public ParticipantsListAdapter(Context context, List<com.fitbase.TokBox.Participant> participantsList, ParticipantListAdapterListener listener) throws Exception {
     if (participantsList == null) {
       throw new Exception("ParticipantsList cannot be null");
     }
@@ -47,7 +47,7 @@ public class ParticipantsListAdapter extends RecyclerView.Adapter<ParticipantsLi
 
   @Override
   public void onBindViewHolder(ParticipantViewHolder holder, int position) {
-    Participant participant=mParticipantsList.get(position);
+    com.fitbase.TokBox.Participant participant=mParticipantsList.get(position);
     holder.muteMic.setImageResource(participant.getStatus().getSubscribeToAudio() ?  R.drawable.mic_green_icon : R.drawable.muted_mic_red_icon);
     holder.participantsname.setText(participant.getStatus().getStream().getName());
     holder.muteMic.setId(position);
